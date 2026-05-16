@@ -3,3 +3,6 @@ daily_promotions = ["Milk", "Eggs", "Bread", "Apples", "Oranges"]
 
 # List of weekdays corresponding to the promotions
 weekdays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+
+for i in range(len(daily_promotions)):
+    print(f'{weekdays[i]}: Promotion on {daily_promotions[i]}')
